@@ -21,16 +21,16 @@
   </head>
 
   <body>
+    <header>
+      <img class="logo-booki" src="images/logo/Booki.png" alt="logo Booki" />
+      <nav class="menu">
+        <ul>
+          <li><a href="#hebergements">Hébergements</a></li>
+          <li><a href="#activites">Activités</a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="main-container">
-      <header>
-        <img src="images/logo/Booki.png" alt="logo Booki" />
-        <nav>
-          <ul class="menu">
-            <li><a href="#hebergements">Hébergements</a></li>
-            <li><a href="#activites">Activités</a></li>
-          </ul>
-        </nav>
-      </header>
       <main>
         <section class="info-group">
           <div class="headline">
@@ -46,21 +46,21 @@
                 name="rechercher"
                 placeholder="Marseille, France"
               />
-              <button type="submit">Rechercher</button>
+              <button type="submit">Recherche</button>
             </form>
           </div>
           <div class="filter-bar">
             <h2>Filtres</h2>
-            <button class="btn-filtres">
+            <button class="btn-filter">
               <i class="fa-solid fa-money-bill-1-wave"></i>Économique
             </button>
             <button class="btn-filter">
               <i class="fa-solid fa-person"></i>Familial
             </button>
-            <button class="btn-filtres">
+            <button class="btn-filter">
               <i class="fa-solid fa-heart"></i>Romantique
             </button>
-            <button class="btn-filtres">
+            <button class="btn-filter">
               <i class="fa-solid fa-fire"></i>Nos pépites
             </button>
           </div>
@@ -72,7 +72,7 @@
         <div class="hebergements-and-populaires" id="hebergements">
           <section class="hebergements">
             <h1>Hébergements à Marseille</h1>
-            <div class="card-container-hebergements">
+            <div class="hebergements-cards">
               <div class="card">
                 <a href="#">
                   <img
@@ -326,48 +326,32 @@
         </div>
         <section class="activites" id="activites">
           <h1>Activités à Marseille</h1>
-          <div class="activites-card-container">
-            <div class="card">
-              <img
-                src="./images/hebergements/emile-guillemot.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+          <div class="activites-cards">
+            <div class="card" id="activite-1" >
               <div class="card-content">
                 <div class="card-txt">
-                  <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                  <h3 class="card-title">Le Vieux-Port</h3>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="./images/hebergements/emile-guillemot.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+            <div class="card" id="activite-2">
               <div class="card-content">
                 <div class="card-txt">
-                  <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                  <h3 class="card-title">Fort de Pomègues</h3>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="./images/hebergements/emile-guillemot.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+            <div class="card" id="activite-3">
               <div class="card-content">
                 <div class="card-txt">
-                  <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                  <h3 class="card-title">Parc national des Calanques</h3>
                 </div>
               </div>
             </div>
-            <div class="card">
-              <img
-                src="./images/hebergements/emile-guillemot.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+            <div class="card" id="activite-4">
               <div class="card-content">
                 <div class="card-txt">
-                  <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                  <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                 </div>
               </div>
             </div>
