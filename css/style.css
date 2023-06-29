@@ -61,6 +61,10 @@ header {
   justify-content: space-around;
   gap: 68px;
 }
+.menu a:hover{
+    text-decoration-line: overline;
+    text-decoration-color: #0065fc;
+}
 .main-container {
   width: 100%;
   max-width: 1440px;
@@ -147,6 +151,18 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#loupe-icone{
+   display: none;
+    width: 50px;
+    height: inherit;
+    border-radius: 15px;
+    background-color: #0065fc;
+    color: white;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .txt-search-bar {
   width: 160px;
@@ -302,6 +318,25 @@ box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 /* Shadow/Card */
 box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
+.card-background{
+    height: 80%;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: visible;
+
+}
+.card-background a{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+/*
 #activite-1 {
     background-image: url(/images/activites/reno-laithienne.jpg);
     background-size : 100% 85%;
@@ -323,7 +358,7 @@ box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     background-size : 100% 85%;
     background-repeat: no-repeat;
 
-}
+}*/
 /********** Footer *********/
 footer{
     height: 183px;
